@@ -1,0 +1,19 @@
+{
+  "name": "basic-mern-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TJohnson986/basic-mern-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TJohnson986/basic-mern-backend/issues"
+  },
+  "homepage": "https://github.com/TJohnson986/basic-mern-backend#readme"
+}
