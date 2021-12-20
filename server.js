@@ -4,7 +4,11 @@ const bodyParser = require('body-parser')
 const mongoose = require('mongoose');
 require('dotenv').config();
 
+const postNotesRoutes = require('./routes/postNotes.js');
+
 const app = express();
+
+app.use('/postNotes', postNotesRoutes);
 
 app.use(bodyParser.json({ limit: "30mb", extended: true }))
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }))
