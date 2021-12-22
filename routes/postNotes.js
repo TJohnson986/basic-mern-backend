@@ -8,6 +8,6 @@ const router = express.Router();
 
 router.get('/', getPosts );
 router.post('/', createPosts )
-router.patch('/:id', updatePost)
+router.patch('/:id', updatePosts)
 
 module.exports = router;
