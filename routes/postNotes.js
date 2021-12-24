@@ -12,6 +12,6 @@ router.get('/', getPosts );
 router.post('/', createPosts )
 router.patch('/:id', updatePosts)
 router.delete('/:id', deletePosts)
-router.patch('/:id', likePosts)
+router.patch('/:id/likePost', likePosts)
 
 module.exports = router;
